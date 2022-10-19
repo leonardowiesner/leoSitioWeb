@@ -10,14 +10,6 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y mandatory; /*Scroll vertical */
-}
-
-.servicios,
-.navegacion-principal,
-.formulario{
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 
 /* Selecciona todos los elementos y les aplica el border-box para trabajar de manera comoda el model box */
@@ -265,7 +257,41 @@ h1,h2,h3 {
 
 .footer {
     text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #263238;
+    text-align: center;
+    color: #f4f4f4;
 }
+
+.icons{
+    padding-top: 1rem;
+}
+
+.icons a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #f4f4f4;
+}
+
+.company-name{
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+    }
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+    }
+}    
 
 .Pic-container{
     width:100px;
@@ -273,3 +299,112 @@ h1,h2,h3 {
     border-radius: 50%;
     overflow: hidden;
   }
+
+  .icons-social-media * :is(html)
+  {
+    background: rgb(41, 41, 41);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(24, 30, 48, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(24, 30, 48, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(24, 30, 48, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292929",endColorstr="#181e30",GradientType=1);
+  height: 100%;
+  width: 100%;
+  }
+
+  .icons-social-media * :is(a,p)
+    {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2rem;
+    color: #eee;
+  }
+
+
+  .icons-social-media * :is(ul,li)
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+    list-style-type: none;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .fab{
+    font-size: 5rem;
+  }
+
+  .fa-facebook,
+  .fa-codepen,
+  .fa-youtube,
+  .fa-instagram,
+  .fa-github,
+  .fa-pinterest {
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  /* social media icons hover color */
+  .fa-facebook:hover,
+  .fa-facebook:focus {
+    color: #1877f2;
+    transform: scale(1.1);
+  }
+  
+  .fa-twitter:hover,
+  .fa-twitter:focus {
+    color: #1da1f2;
+    transform: scale(1.1);
+  }
+  
+  .fa-youtube:hover,
+  .fa-youtube:focus {
+    color: #df2426;
+    transform: scale(1.1);
+  }
+  
+  .fa-instagram:hover,
+  .fa-instagram:focus {
+    color: #bd22a2;
+    transform: scale(1.1);
+  }
+  
+  .fa-github:hover,
+  .fa-github:focus {
+    color: #000;
+    transform: scale(1.1);
+  }
+  
+  .fa-github:hover,
+  .fa-github:focus {
+    color: #000;
+    transform: scale(1.1);
+  }
+  
+  .fa-codepen:hover,
+  .fa-codepen:focus {
+    color: #000;
+    transform: scale(1.1);
+  }
+  
+  .fa-pinterest:hover,
+  .fa-pinterest:focus {
+    color: #b3001b;
+  }
+  
+
+ 

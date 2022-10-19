@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/styles.css" as="styleshhet">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -19,11 +20,11 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre Mi</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Blog</a>
-            <a href="#">Contacto</a>
+            <a href="index.html">Inicio</a>
+            <a href="sobremi.html">Sobre Mi</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="blog.html">Blog</a>
+            <a href="#contactame">Contacto</a>
         </nav>
     </div>
   
@@ -42,7 +43,7 @@
                     </svg>
                     <p>Lleida, España </p>
                 </div>  
-            <a class="boton" href="#">Contactar</a>
+            <a class="boton" href="#contactame">Contactar</a>
       </div>
     </section>
 
@@ -105,7 +106,7 @@
         <section>
             <h2>Contacto</h2>
 
-            <form class="formulario">
+            <form class="formulario" id="contactame">
                 <fieldset>
                     <legend>Contactáme ingresando la información </legend>
 
@@ -135,16 +136,19 @@
                         <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
                 </fieldset>
-            </form>
+            </form>  
         </section>
-
     </main>
-    
     <footer class="footer">
-        <p>Todos los derechos reservados. Leonardo Wiesner ©️</p>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+             <p class="company-name">
+                Todos los derechos reservados. Leonardo Wiesner ©️
+             </p>
+         </div>
     </footer>
-
-
-
 </body>
 </html>
