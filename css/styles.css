@@ -24,6 +24,11 @@ body{
     background-image: linear-gradient(to right bottom, #52fffc, #85feff, #aefdff, #d1fbff, #eefaff, #e5ecf2, #dbdfe3, #d1d2d5, #aeb2b7, #8a9398, #697679, #495a5a);
 }
 
+.blog {
+    width: 100vw;
+    height: 100vh;
+}
+
 .contenedor{
     max-width: 120rem;
     margin: 0 auto; 
@@ -406,5 +411,59 @@ h1,h2,h3 {
     color: #b3001b;
   }
   
+/* Pagina sobre mi  */
 
- 
+.imgCoverAboutMe{
+    display: block;
+    margin: auto;
+}
+
+
+.biografia{
+width: 100rem;
+margin: auto;
+font-size: 1.8rem;
+}
+
+.imgblog{
+    width: 100rem;
+
+}
+
+.blog-title{
+    text-align: center;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.formContacto{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+}
+
+.myFormControl,.col{
+    font-size: 1.7rem !important;  
+}
+
+.example-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
